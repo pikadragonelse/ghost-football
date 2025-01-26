@@ -1,4 +1,4 @@
-import { PassingTech } from "../component/model/passing-tech";
+import { PassingTech } from "../model/passing-tech";
 
 export const techniques: PassingTech[] = [
     { name: "Neymar Rainbow Flick", techniqueScore: 6 },
