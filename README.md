@@ -1,3 +1,5 @@
+# Run Project
+**yarn dev**
 # Hướng Dẫn Chơi **Bóng Đá Ma**
 
 **Bóng Đá Ma** là một trò chơi thú vị mô phỏng các kỹ thuật chuyền bóng và chiến thuật trong bóng đá. Dưới đây là hướng dẫn chi tiết để tham gia và tận hưởng trò chơi:
