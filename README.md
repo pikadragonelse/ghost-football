@@ -1,50 +1,10 @@
-# React + TypeScript + Vite
+HƯỚNG DẪN CHƠI BÓNG ĐÁ MA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bước 1: Nhập thông tin tên và số áo của 10 cầu thủ
+Bước 2: Nhấn nút Get defense player để chọn cầu thủ bị phạt cho lượt đầu tiên
+Bước 3: Nhấn nút start để bắt đầu game, khi này hệ thống sẽ chọn ngẫu nhiên người nhận bóng đầu tiên
+Bước 4: Nhấn nút Pass để chuyền bóng ngẫu nhiên, thông tin chuyền bóng sẽ hiển thị ở bảng Game Information ở phía bên trái
+Bước 5: Sau khi chỉ còn 1 người giữ bóng và 1 người bị phạt thì round sẽ kết thúc để qua round mới (bạn sẽ thấy còn 2 người vì hệ thống xử lý ngầm)
+Bước 6: Tiếp tục cho tới khi đủ 10 Round
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Lưu ý: Kết quả của các cầu thủ sẽ được hiển thị ở Result List và sẽ được cập nhập qua từng round. Ngoài ra, các kỹ thuật chuyền bóng được sử dụng cũng sẽ được thống kê theo bảng ở bên dưới theo từng Round luôn.
