@@ -1,4 +1,5 @@
 # Run Project
+**yarn install**
 **yarn dev**
 # Hướng Dẫn Chơi **Bóng Đá Ma**
 
